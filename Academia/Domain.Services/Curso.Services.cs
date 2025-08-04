@@ -67,9 +67,9 @@ namespace Domain.Services
             }).ToList();
         }
 
-        public bool Update(CursoDTO dto)
+        public bool Update(CursoEntradaDTO dto, int id)
         {
-            Curso? cursoToUpdate = CursosEnMemoria.Cursos.Find(x => x.IdCurso == dto.IdCurso);
+            Curso? cursoToUpdate = CursosEnMemoria.Cursos.Find(x => x.IdCurso == id);
 
             if (cursoToUpdate != null)
             {

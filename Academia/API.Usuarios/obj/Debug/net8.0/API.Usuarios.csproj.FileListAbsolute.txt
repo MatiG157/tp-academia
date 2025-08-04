@@ -1,0 +1,16 @@
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\bin\Debug\net8.0\API.Usuarios.deps.json
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\bin\Debug\net8.0\API.Usuarios.dll
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\bin\Debug\net8.0\API.Usuarios.pdb
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\bin\Debug\net8.0\DTOs.dll
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\bin\Debug\net8.0\DTOs.pdb
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usuarios.csproj.AssemblyReference.cache
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usuarios.GeneratedMSBuildEditorConfig.editorconfig
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usuarios.AssemblyInfoInputs.cache
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usuarios.AssemblyInfo.cs
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usuarios.csproj.CoreCompileInputs.cache
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usuarios.sourcelink.json
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usua.8CA93B49.Up2Date
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usuarios.dll
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\refint\API.Usuarios.dll
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\API.Usuarios.pdb
+R:\3er Año Ing en Sistemas\Tecnologias de Desarrollo de Software IDE\Repositorio\tp-academia\Academia\API.Usuarios\obj\Debug\net8.0\ref\API.Usuarios.dll

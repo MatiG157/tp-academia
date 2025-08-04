@@ -17,7 +17,7 @@ namespace Domain.Model
         public string Apellido { get; set; }
         public string Email { get; set; }
         public bool CambiaClave { get; set; }
-        public int idPersona { get; set; }
+        public int IdPersona { get; set; }
    
 
         public Usuario (int idUsuario, string nombreUsuario, string clave, bool habilitado, string nombre, string apellido, string email, bool cambiaClave, int idPersona)
@@ -31,7 +31,7 @@ namespace Domain.Model
             Apellido = apellido;
             Email = email;
             CambiaClave = cambiaClave;
-            idPersona = idPersona;
+            IdPersona = idPersona;
 
         }
 

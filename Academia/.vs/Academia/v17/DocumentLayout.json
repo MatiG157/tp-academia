@@ -3,40 +3,37 @@
   "WorkspaceRootPath": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B785AE1-1CAA-434F-85C7-A2F35F98E77A}|AcademiaAPI\\AcademiaAPI.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\academiaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B785AE1-1CAA-434F-85C7-A2F35F98E77A}|AcademiaAPI\\AcademiaAPI.csproj|solutionrelative:academiaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856D6109-BDCC-2FBB-5227-F4EEB712536B}|..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\projectos de ejemplo\\2\\windowsforms\\cursoslista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31206BF3-7779-403D-A7AD-DAA23A320412}|Domain.Services\\Domain.Services.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\domain.services\\curso.services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31206BF3-7779-403D-A7AD-DAA23A320412}|Domain.Services\\Domain.Services.csproj|solutionrelative:domain.services\\curso.services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856D6109-BDCC-2FBB-5227-F4EEB712536B}|..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\projectos de ejemplo\\2\\windowsforms\\cursoslista.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC08B9F9-6A52-45D2-9925-3095E878552D}|API.Alumos\\Domain.Model.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\api.alumos\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC08B9F9-6A52-45D2-9925-3095E878552D}|API.Alumos\\Domain.Model.csproj|solutionrelative:api.alumos\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856D6109-BDCC-2FBB-5227-F4EEB712536B}|..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\projectos de ejemplo\\2\\windowsforms\\cursodetalle.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31206BF3-7779-403D-A7AD-DAA23A320412}|Domain.Services\\Domain.Services.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\domain.services\\usuario.services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31206BF3-7779-403D-A7AD-DAA23A320412}|Domain.Services\\Domain.Services.csproj|solutionrelative:domain.services\\usuario.services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856D6109-BDCC-2FBB-5227-F4EEB712536B}|..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\projectos de ejemplo\\2\\windowsforms\\cursodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2339152-980F-44E5-A542-E1D82A6A578D}|DTOs\\DTOs.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\dtos\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C2339152-980F-44E5-A542-E1D82A6A578D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\cursodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856D6109-BDCC-2FBB-5227-F4EEB712536B}|..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\projectos de ejemplo\\2\\windowsforms\\cursoslista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{856D6109-BDCC-2FBB-5227-F4EEB712536B}|..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\projectos de ejemplo\\2\\windowsforms\\windowsformscurso.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2339152-980F-44E5-A542-E1D82A6A578D}|DTOs\\DTOs.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\dtos\\dtos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C2339152-980F-44E5-A542-E1D82A6A578D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\dtos.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C2339152-980F-44E5-A542-E1D82A6A578D}|DTOs\\DTOs.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2339152-980F-44E5-A542-E1D82A6A578D}|DTOs\\DTOs.csproj|solutionrelative:dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC08B9F9-6A52-45D2-9925-3095E878552D}|API.Alumos\\Domain.Model.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\api.alumos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DC08B9F9-6A52-45D2-9925-3095E878552D}|API.Alumos\\Domain.Model.csproj|solutionrelative:api.alumos\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9FD74965-888F-4159-8671-3E05B1808FBC}|API.Usuarios\\API.Usuarios.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\api.usuarios\\usuarioapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FD74965-888F-4159-8671-3E05B1808FBC}|API.Usuarios\\API.Usuarios.csproj|solutionrelative:api.usuarios\\usuarioapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D71A331-2020-44EC-9CE5-F96109E6F7FD}|Data\\Data.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\data\\usuariosenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D71A331-2020-44EC-9CE5-F96109E6F7FD}|Data\\Data.csproj|solutionrelative:data\\usuariosenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D71A331-2020-44EC-9CE5-F96109E6F7FD}|Data\\Data.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\repositorio\\tp-academia\\academia\\data\\cursosenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D71A331-2020-44EC-9CE5-F96109E6F7FD}|Data\\Data.csproj|solutionrelative:data\\cursosenmemoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{856D6109-BDCC-2FBB-5227-F4EEB712536B}|..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj|r:\\3er a\u00F1o ing en sistemas\\tecnologias de desarrollo de software ide\\projectos de ejemplo\\2\\windowsforms\\cursodetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +43,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +51,15 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -62,112 +67,129 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\AcademiaAPI\\Program.cs",
-              "RelativeDocumentMoniker": "AcademiaAPI\\Program.cs",
-              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\AcademiaAPI\\Program.cs",
-              "RelativeToolTip": "AcademiaAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UsuarioApiClient.cs",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\API.Usuarios\\UsuarioApiClient.cs",
+              "RelativeDocumentMoniker": "API.Usuarios\\UsuarioApiClient.cs",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\API.Usuarios\\UsuarioApiClient.cs",
+              "RelativeToolTip": "API.Usuarios\\UsuarioApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T21:01:40.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T04:20:33.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Curso.Services.cs",
-              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\Domain.Services\\Curso.Services.cs",
-              "RelativeDocumentMoniker": "Domain.Services\\Curso.Services.cs",
-              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\Domain.Services\\Curso.Services.cs",
-              "RelativeToolTip": "Domain.Services\\Curso.Services.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAkwE4AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:38:07.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Usuario.Services.cs",
-              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\Domain.Services\\Usuario.Services.cs",
-              "RelativeDocumentMoniker": "Domain.Services\\Usuario.Services.cs",
-              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\Domain.Services\\Usuario.Services.cs",
-              "RelativeToolTip": "Domain.Services\\Usuario.Services.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:38:59.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\DTOs\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\UsuarioDTO.cs",
               "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\DTOs\\UsuarioDTO.cs",
               "RelativeToolTip": "DTOs\\UsuarioDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:24:04.572Z"
+              "WhenOpened": "2025-08-04T04:20:16.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CursosLista.Designer.cs",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.Designer.cs",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.Designer.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAjwF8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T04:13:19.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CursoDetalle.cs [Dise\u00F1o]",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.cs",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T04:13:17.369Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CursoDTO.cs",
-              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\DTOs\\CursoDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\CursoDTO.cs",
-              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\DTOs\\CursoDTO.cs",
-              "RelativeToolTip": "DTOs\\CursoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "CursosLista.cs [Dise\u00F1o]",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.cs",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:23:41.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CursosEnMemoria.cs",
-              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\Data\\CursosEnMemoria.cs",
-              "RelativeDocumentMoniker": "Data\\CursosEnMemoria.cs",
-              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\Data\\CursosEnMemoria.cs",
-              "RelativeToolTip": "Data\\CursosEnMemoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:18:43.683Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsuariosEnMemoria.cs",
-              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\Data\\UsuariosEnMemoria.cs",
-              "RelativeDocumentMoniker": "Data\\UsuariosEnMemoria.cs",
-              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\Data\\UsuariosEnMemoria.cs",
-              "RelativeToolTip": "Data\\UsuariosEnMemoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:10:33.805Z"
+              "WhenOpened": "2025-08-04T04:13:14.552Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\API.Alumos\\Usuario.cs",
-              "RelativeDocumentMoniker": "API.Alumos\\Usuario.cs",
-              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\API.Alumos\\Usuario.cs",
-              "RelativeToolTip": "API.Alumos\\Usuario.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAA7wBYAAAAWAAAAAAAAAA==",
+              "Title": "DTOs.csproj",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\DTOs\\DTOs.csproj",
+              "RelativeDocumentMoniker": "DTOs\\DTOs.csproj",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\DTOs\\DTOs.csproj",
+              "RelativeToolTip": "DTOs\\DTOs.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-04T04:11:30.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CursosLista.cs",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.cs",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.cs",
+              "RelativeToolTip": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursosLista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T20:05:28.907Z"
+              "WhenOpened": "2025-08-04T04:09:51.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowsFormsCurso.csproj",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj",
+              "RelativeToolTip": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\WindowsFormsCurso.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-04T03:32:51.161Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Curso.cs",
-              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\API.Alumos\\Curso.cs",
-              "RelativeDocumentMoniker": "API.Alumos\\Curso.cs",
-              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Repositorio\\tp-academia\\Academia\\API.Alumos\\Curso.cs",
-              "RelativeToolTip": "API.Alumos\\Curso.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Title": "CursoDetalle.Designer.cs",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.Designer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.Designer.cs",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.Designer.cs",
+              "RelativeToolTip": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.Designer.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwGMAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T19:45:06.602Z"
+              "WhenOpened": "2025-08-04T04:13:35.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CursoDetalle.cs",
+              "DocumentMoniker": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.cs",
+              "ToolTip": "R:\\3er A\u00F1o Ing en Sistemas\\Tecnologias de Desarrollo de Software IDE\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.cs",
+              "RelativeToolTip": "..\\..\\..\\Projectos de ejemplo\\2\\WindowsForms\\CursoDetalle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T04:13:38.93Z"
             }
           ]
         }
