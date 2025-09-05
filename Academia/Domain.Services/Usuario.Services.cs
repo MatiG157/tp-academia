@@ -6,14 +6,20 @@ namespace Domain.Services
 {
     public class UsuarioService
     {
+
         public UsuarioDTO Add(UsuarioDTO dto)
         {
+            var usuarioRepository = new UsuarioRepository();
 
-            var id = GetNextId();
+            // Validar que el email no esté duplicado
+            if (usuarioRepository.EmailExists(dto.Email))
+            {
+                throw new ArgumentException($"Ya existe un usuario con el Email '{dto.Email}'.");
+            }
 
-            Usuario usuario = new Usuario(id, dto.NombreUsuario, dto.Clave, dto.Habilitado, dto.Nombre, dto.Apellido, dto.Email, dto.CambiaClave, dto.IdPersona);
+            Usuario usuario = new Usuario(0, dto.NombreUsuario, dto.Clave, dto.Habilitado, dto.Nombre, dto.Apellido, dto.Email, dto.CambiaClave, dto.IdPersona);
 
-            UsuariosEnMemoria.Usuarios.Add(usuario);
+            usuarioRepository.Add(usuario);
 
             dto.IdUsuario = usuario.IdUsuario;
 
@@ -22,23 +28,17 @@ namespace Domain.Services
 
         public bool Delete(int id)
         {
-            Usuario? usuarioToDelete = UsuariosEnMemoria.Usuarios.Find(x => x.IdUsuario == id);
-
-            if (usuarioToDelete != null)
-            {
-                UsuariosEnMemoria.Usuarios.Remove(usuarioToDelete);
-
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            var usuarioRepository = new UsuarioRepository();
+            return usuarioRepository.Delete(id);
         }
+
+
+
 
         public UsuarioDTO Get(int id)
         {
-            Usuario? usuario = UsuariosEnMemoria.Usuarios.Find(x => x.IdUsuario == id);
+            var usuarioRepository = new UsuarioRepository();
+            Usuario? usuario = usuarioRepository.Get(id);
 
             if (usuario == null)
                 return null;
@@ -59,9 +59,11 @@ namespace Domain.Services
 
         public IEnumerable<UsuarioDTO> GetAll()
         {
-            return UsuariosEnMemoria.Usuarios.Select(usuario => new UsuarioDTO
-            {
+            var usuarioRepository = new UsuarioRepository();
+            var usuarios = usuarioRepository.GetAll();
 
+            return usuarios.Select(usuario => new UsuarioDTO
+            {
                 IdUsuario = usuario.IdUsuario,
                 NombreUsuario = usuario.NombreUsuario,
                 Clave = usuario.Clave,
@@ -71,52 +73,51 @@ namespace Domain.Services
                 Email = usuario.Email,
                 CambiaClave = usuario.CambiaClave,
                 IdPersona = usuario.IdPersona
-
             }).ToList();
         }
 
-        public bool Update(UsuarioEntradaDTO dto, int id)
+        public bool Update(UsuarioDTO dto)
         {
-            Usuario? usuarioToUpdate = UsuariosEnMemoria.Usuarios.Find(x => x.IdUsuario == id);
+            var usuarioRepository = new UsuarioRepository();
 
-            if (usuarioToUpdate != null)
+            // Validar que el email no esté duplicado (excluyendo el usuario actual)
+            if (usuarioRepository.EmailExists(dto.Email, dto.IdUsuario))
             {
-
-                usuarioToUpdate.NombreUsuario = dto.NombreUsuario;
-                usuarioToUpdate.Clave = dto.Clave;
-                usuarioToUpdate.Habilitado = dto.Habilitado;
-                usuarioToUpdate.Nombre = dto.Nombre;
-                usuarioToUpdate.Apellido = dto.Apellido;
-                usuarioToUpdate.Email = dto.Email;
-                usuarioToUpdate.CambiaClave = dto.CambiaClave;
-                usuarioToUpdate.IdPersona = dto.IdPersona;
-
-                return true;
+                throw new ArgumentException($"Ya existe otro usuario con el Email '{dto.Email}'.");
             }
-            else
-            {
-                return false;
-            }
+
+            Usuario usuario = new Usuario(dto.IdUsuario, dto.NombreUsuario, dto.Clave, dto.Habilitado, dto.Nombre, dto.Apellido, dto.Email, dto.CambiaClave, dto.IdPersona);
+
+            return usuarioRepository.Update(usuario);
         }
 
-        private static int GetNextId()
+
+
+        public IEnumerable<UsuarioDTO> GetByCriteria(UsuarioCriteriaDTO criteriaDTO)
         {
-            int nextId;
+            var usuarioRepository = new UsuarioRepository();
 
-            if (UsuariosEnMemoria.Usuarios.Count > 0)
+            // Mapear DTO a Domain Model
+            var criteria = new UsuarioCriteria(criteriaDTO.Texto);
+
+            // Llamar al repositorio
+            var usuarios = usuarioRepository.GetByCriteria(criteria);
+
+            // Mapear Domain Model a DTO
+            return usuarios.Select(u => new UsuarioDTO
             {
-                nextId = UsuariosEnMemoria.Usuarios.Max(x => x.IdUsuario) + 1;
-            }
-            else
-            {
-                nextId = 1;
-            }
-
-            return nextId;
-
-
-
-
+                IdUsuario = u.IdUsuario,
+                NombreUsuario = u.NombreUsuario,
+                Clave = u.Clave,
+                Habilitado = u.Habilitado,
+                Nombre = u.Nombre,
+                Apellido = u.Apellido,
+                Email = u.Email,
+                CambiaClave = u.CambiaClave,
+                IdPersona = u.IdPersona
+            });
         }
+
+
     }
 }

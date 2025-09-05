@@ -13,16 +13,5 @@
         public int IdPersona { get; set; }
     }
 
-    public class UsuarioEntradaDTO
-    {
-        public string NombreUsuario { get; set; }
-        public string Clave { get; set; }
-        public bool Habilitado { get; set; }
-        public string Nombre { get; set; }
-        public string Apellido { get; set; }
-        public string Email { get; set; }
-        public bool CambiaClave { get; set; }
-        public int IdPersona { get; set; }
-    }
 }
     

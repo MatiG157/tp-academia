@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Endpoints\Class1.cs" />
+    <Compile Remove="Endpoints\Class2.cs" />
+    <Compile Remove="Endpoints\ComisionEndPoint.cs" />
+    <Compile Remove="Endpoints\Materia.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.18" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />

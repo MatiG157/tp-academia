@@ -14,8 +14,7 @@
 
   <ItemGroup>
   
-    <ProjectReference Include="..\API.Cursos\API.Cursos.csproj" />
-    <ProjectReference Include="..\API.Usuarios\API.Usuarios.csproj" />
+    <ProjectReference Include="..\API.Cursos\API.Clients.csproj" />
     <ProjectReference Include="..\DTOs\DTOs.csproj" />
 	
   </ItemGroup>

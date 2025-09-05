@@ -8,14 +8,11 @@ namespace Domain.Services
     {
         public CursoDTO Add(CursoDTO dto)
         {
+            var cursoRepository = new CursoRepository();
 
+            Curso curso = new Curso(0, dto.IdMateria, dto.IdComision, dto.AnioCalendario, dto.Cupo);
 
-            var id = GetNextId();
-  
-
-            Curso curso = new Curso (id, dto.IdMateria, dto.IdComision, dto.AnioCalendario, dto.Cupo);
-
-            CursosEnMemoria.Cursos.Add(curso);
+            cursoRepository.Add(curso);
 
             dto.IdCurso = curso.IdCurso;
 
@@ -24,23 +21,14 @@ namespace Domain.Services
 
         public bool Delete(int id)
         {
-            Curso? cursoToDelete = CursosEnMemoria.Cursos.Find(x => x.IdCurso == id);
-
-            if (cursoToDelete != null)
-            {
-                CursosEnMemoria.Cursos.Remove(cursoToDelete);
-
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            var cursoRepository = new CursoRepository();
+            return cursoRepository.Delete(id);
         }
 
         public CursoDTO Get(int id)
         {
-            Curso? curso = CursosEnMemoria.Cursos.Find(x => x.IdCurso == id);
+            var cursoRepository = new CursoRepository();
+            Curso? curso = cursoRepository.Get(id);
 
             if (curso == null)
                 return null;
@@ -57,7 +45,10 @@ namespace Domain.Services
 
         public IEnumerable<CursoDTO> GetAll()
         {
-            return CursosEnMemoria.Cursos.Select(curso => new CursoDTO
+            var cursoRepository = new CursoRepository();
+            var cursos = cursoRepository.GetAll();
+
+            return cursos.Select(curso => new CursoDTO
             {
                 IdCurso = curso.IdCurso,
                 IdMateria = curso.IdMateria,
@@ -67,40 +58,34 @@ namespace Domain.Services
             }).ToList();
         }
 
-        public bool Update(CursoEntradaDTO dto, int id)
+        public bool Update(CursoDTO dto)
         {
-            Curso? cursoToUpdate = CursosEnMemoria.Cursos.Find(x => x.IdCurso == id);
+            var cursoRepository = new CursoRepository();
 
-            if (cursoToUpdate != null)
-            {
-    
-                cursoToUpdate.IdMateria =  dto.IdMateria;
-                cursoToUpdate.IdComision =  dto.IdComision;
-                cursoToUpdate.AnioCalendario =  dto.AnioCalendario;
-                cursoToUpdate.Cupo =  dto.Cupo;
-
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            Curso curso = new Curso(dto.IdCurso, dto.IdMateria, dto.IdComision, dto.AnioCalendario, dto.Cupo);
+            return cursoRepository.Update(curso);
         }
-       
-        private static int GetNextId()
+
+        public IEnumerable<CursoDTO> GetByCriteria(CursoCriteriaDTO criteriaDTO)
         {
-            int nextId;
+            var cursoRepository = new CursoRepository();
 
-            if (CursosEnMemoria.Cursos.Count > 0)
-            {
-                nextId = CursosEnMemoria.Cursos.Max(x => x.IdCurso) + 1;
-            }
-            else
-            {
-                nextId = 1;
-            }
+            // Mapear DTO a Domain Model
+            var criteria = new CursoCriteria(criteriaDTO.Texto);
 
-            return nextId;
+            // Llamar al repositorio
+            var cursos = cursoRepository.GetByCriteria(criteria);
+
+            // Mapear Domain Model a DTO
+            return cursos.Select(c => new CursoDTO
+            {
+                IdCurso = c.IdCurso,
+                IdMateria = c.IdMateria,
+                IdComision = c.IdComision,
+                AnioCalendario = c.AnioCalendario,
+                Cupo = c.Cupo
+            });
         }
+
     }
 }

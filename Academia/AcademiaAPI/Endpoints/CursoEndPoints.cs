@@ -62,13 +62,13 @@ public static class CursoEndpoints
         .WithOpenApi();
 
 
-        app.MapPut("/cursos/{id}", (int id, CursoEntradaDTO dto) =>
+        app.MapPut("/cursos/{id}", (CursoDTO dto) =>
         {
             try
             {
                 CursoService cursoService = new CursoService();
 
-                var found = cursoService.Update(dto, id);
+                var found = cursoService.Update(dto);
 
                 if (!found)
                 {
@@ -105,6 +105,23 @@ public static class CursoEndpoints
         .WithName("DeleteCurso")
         .Produces(StatusCodes.Status204NoContent)
         .Produces(StatusCodes.Status404NotFound)
+        .WithOpenApi();
+
+        app.MapGet("/cursos/criteria", (string texto) =>
+        {
+            try
+            {
+                CursoService cursoService = new CursoService();
+                var criteria = new CursoCriteriaDTO { Texto = texto };
+                var cursos = cursoService.GetByCriteria(criteria);
+                return Results.Ok(cursos);
+            }
+            catch (Exception ex)
+            {
+                return Results.BadRequest(new { error = ex.Message });
+            }
+        })
+        .WithName("GetCursosByCriteria")
         .WithOpenApi();
 
     }
